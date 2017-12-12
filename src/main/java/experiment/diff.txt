@@ -1,0 +1,117 @@
+STREAM_MAGIC - 0xac ed
+STREAM_VERSION - 0x00 05
+Contents
+  TC_OBJECT - 0x73
+    TC_CLASSDESC - 0x72
+      className
+        Length - 25 - 0x00 19
+        Value - experiment.AccountWrapper - 0x6578706572696d656e742e4163636f756e7457726170706572
+      serialVersionUID - 0x00 00 00 00 00 00 00 c8
+      newHandle 0x00 7e 00 00
+      classDescFlags - 0x03 - SC_WRITE_METHOD | SC_SERIALIZABLE
+      fieldCount - 0 - 0x00 00
+      classAnnotations
+        TC_ENDBLOCKDATA - 0x78
+      superClassDesc
+        TC_NULL - 0x70
+    newHandle 0x00 7e 00 01
+    classdata
+      experiment.AccountWrapper
+        values
+        objectAnnotation
+          TC_OBJECT - 0x73
+            TC_CLASSDESC - 0x72
+              className
+                Length - 18 - 0x00 12
+                Value - experiment.Account - 0x6578706572696d656e742e4163636f756e74
+              serialVersionUID - 0x00 00 00 00 00 00 00 64
+              newHandle 0x00 7e 00 02
+              classDescFlags - 0x02 - SC_SERIALIZABLE
+              fieldCount - 1 - 0x00 01
+              Fields
+                0:
+                  Object - L - 0x4c
+                  fieldName
+                    Length - 8 - 0x00 08
+                    Value - passcode - 0x70617373636f6465
+                  className1
+                    TC_STRING - 0x74
+                      newHandle 0x00 7e 00 03
+                      Length - 18 - 0x00 12
+                      Value - Ljava/lang/String; - 0x4c6a6176612f6c616e672f537472696e673b
+              classAnnotations
+                TC_ENDBLOCKDATA - 0x78
+              superClassDesc
+                TC_NULL - 0x70
+            newHandle 0x00 7e 00 04
+            classdata
+              experiment.Account
+                values
+                  passcode
+                    (object)
+                      TC_STRING - 0x74
+                        newHandle 0x00 7e 00 05
+                        Length - 8 - 0x00 08
+                        Value - zhangsan - 0x7a68616e6773616e
+          TC_ENDBLOCKDATA - 0x78
+          
+          
+ *********************************分割线 *********************************
+ 
+ 
+ 
+STREAM_MAGIC - 0xac ed
+STREAM_VERSION - 0x00 05
+Contents
+  TC_OBJECT - 0x73
+    TC_CLASSDESC - 0x72
+      className
+        Length - 25 - 0x00 19
+        Value - experiment.AccountWrapper - 0x6578706572696d656e742e4163636f756e7457726170706572
+      serialVersionUID - 0x00 00 00 00 00 00 00 c8
+      newHandle 0x00 7e 00 00
+      classDescFlags - 0x02 - SC_SERIALIZABLE
+      fieldCount - 0 - 0x00 00
+      classAnnotations
+        TC_ENDBLOCKDATA - 0x78
+      superClassDesc
+        TC_NULL - 0x70
+    newHandle 0x00 7e 00 01
+    classdata
+      experiment.AccountWrapper
+        values
+  TC_OBJECT - 0x73
+    TC_CLASSDESC - 0x72
+      className
+        Length - 18 - 0x00 12
+        Value - experiment.Account - 0x6578706572696d656e742e4163636f756e74
+      serialVersionUID - 0x00 00 00 00 00 00 00 64
+      newHandle 0x00 7e 00 02
+      classDescFlags - 0x02 - SC_SERIALIZABLE
+      fieldCount - 1 - 0x00 01
+      Fields
+        0:
+          Object - L - 0x4c
+          fieldName
+            Length - 8 - 0x00 08
+            Value - passcode - 0x70617373636f6465
+          className1
+            TC_STRING - 0x74
+              newHandle 0x00 7e 00 03
+              Length - 18 - 0x00 12
+              Value - Ljava/lang/String; - 0x4c6a6176612f6c616e672f537472696e673b
+      classAnnotations
+        TC_ENDBLOCKDATA - 0x78
+      superClassDesc
+        TC_NULL - 0x70
+    newHandle 0x00 7e 00 04
+    classdata
+      experiment.Account
+        values
+          passcode
+            (object)
+              TC_STRING - 0x74
+                newHandle 0x00 7e 00 05
+                Length - 13 - 0x00 0d
+                Value - wrongpasscode - 0x77726f6e6770617373636f6465
+         
